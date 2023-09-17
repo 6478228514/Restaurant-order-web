@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="page2controller">
+   <children>
+      <ComboBox fx:id="pmethod" layoutX="52.0" layoutY="50.0" prefWidth="150.0" promptText="Payment Method" />
+      <TextArea fx:id="tarea" layoutX="52.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" promptText="Bill" text="2 X sandwiches" />
+      <Button fx:id="back" layoutX="26.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnback" text="Back">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="print" layoutX="214.0" layoutY="336.0" mnemonicParsing="false" onAction="#btnprint" text="Print">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
